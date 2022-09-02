@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeDOW.API.Core", "FreeDOW.API.Core\FreeDOW.API.Core.csproj", "{AFB9A1E4-9493-476D-AD36-C61967963453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeDOW.API..DataAccess", "FreeDOW.API..DataAccess\FreeDOW.API.DataAccess.csproj", "{601B2F39-FCE7-433F-9571-C83361DCB95C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeDOW.API.WebHost", "FreeDOW.API..WebHost\FreeDOW.API.WebHost.csproj", "{2223013A-46E9-4A27-8885-AF35DC77C756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BD624A9A-11B3-4CC1-B38C-C2F41DD4F958}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFB9A1E4-9493-476D-AD36-C61967963453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFB9A1E4-9493-476D-AD36-C61967963453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFB9A1E4-9493-476D-AD36-C61967963453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFB9A1E4-9493-476D-AD36-C61967963453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601B2F39-FCE7-433F-9571-C83361DCB95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601B2F39-FCE7-433F-9571-C83361DCB95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601B2F39-FCE7-433F-9571-C83361DCB95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601B2F39-FCE7-433F-9571-C83361DCB95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2223013A-46E9-4A27-8885-AF35DC77C756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2223013A-46E9-4A27-8885-AF35DC77C756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2223013A-46E9-4A27-8885-AF35DC77C756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2223013A-46E9-4A27-8885-AF35DC77C756}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C4B72B52-2752-4F03-81DE-8F073D508ED5}
+	EndGlobalSection
+EndGlobal

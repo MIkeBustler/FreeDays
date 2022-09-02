@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FreeDOW.API", "FreeDOW.API", "{414C39C6-4F97-4A22-B10D-4E705CB7C3B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeDOW.API.Core", "src\FreeDOW.API\FreeDOW.API.Core\FreeDOW.API.Core.csproj", "{9575ED02-ED63-4E81-B1F6-2E9B7DA477CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeDOW.API.DataAccess", "src\FreeDOW.API\FreeDOW.API.DataAccess\FreeDOW.API.DataAccess.csproj", "{9DB3B754-392B-4316-A921-32CDAC99A457}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeDOW.API.WebHost", "src\FreeDOW.API\FreeDOW.API.WebHost\FreeDOW.API.WebHost.csproj", "{2F9CD212-42DA-4021-8D61-36852B46C1D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9575ED02-ED63-4E81-B1F6-2E9B7DA477CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9575ED02-ED63-4E81-B1F6-2E9B7DA477CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9575ED02-ED63-4E81-B1F6-2E9B7DA477CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9575ED02-ED63-4E81-B1F6-2E9B7DA477CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB3B754-392B-4316-A921-32CDAC99A457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB3B754-392B-4316-A921-32CDAC99A457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB3B754-392B-4316-A921-32CDAC99A457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB3B754-392B-4316-A921-32CDAC99A457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F9CD212-42DA-4021-8D61-36852B46C1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9CD212-42DA-4021-8D61-36852B46C1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9CD212-42DA-4021-8D61-36852B46C1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9CD212-42DA-4021-8D61-36852B46C1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9575ED02-ED63-4E81-B1F6-2E9B7DA477CE} = {414C39C6-4F97-4A22-B10D-4E705CB7C3B5}
+		{9DB3B754-392B-4316-A921-32CDAC99A457} = {414C39C6-4F97-4A22-B10D-4E705CB7C3B5}
+		{2F9CD212-42DA-4021-8D61-36852B46C1D3} = {414C39C6-4F97-4A22-B10D-4E705CB7C3B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5868EDAC-AFB6-4922-BB26-22E479277282}
+	EndGlobalSection
+EndGlobal
