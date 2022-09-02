@@ -1,0 +1,26 @@
+version: "3.4"
+
+services:
+  pg.FreeDOW:
+    container_name: "pg.FreeDOW"
+    image: "postgres:14-alpine"
+    ports:
+      - 5433:5432
+    environment:
+      - POSTGRES_USER=owmanage
+      - POSTGRES_PASSWORD=owmanage
+      - POSTGRES_DB=FreeDOW
+
+  app.api.host:
+    container_name: "app.api.host"
+    build: "src/FreeDOW.API.WebHost"
+    ports:
+      - 5100: 80
+      - 5101: 443
+    environment:
+      - ConnectionString__Postgres="Server=pg.FreeDOW;Port=5432;Database=FreeDOW;UserID=owmanage;Password=owmanage"
+    depends_on:
+      - pg.FreeDOW
+networks:
+  default:
+    name: "FreeDOW.network"
