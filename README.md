@@ -1,4 +1,4 @@
-# FreeDays
+# FreeDOW
 
 Db structure written in https://nosqldbm.ru
 
