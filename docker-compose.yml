@@ -10,13 +10,14 @@ services:
       - POSTGRES_USER=owmanage
       - POSTGRES_PASSWORD=owmanage
       - POSTGRES_DB=FreeDOW
+    restart: always
 
   app.api.host:
     container_name: "app.api.host"
-    build: "src/FreeDOW.API.WebHost"
+    build: "src/FreeDOW.API"
     ports:
-      - 5100: 80
-      - 5101: 443
+      - 5100:80
+      - 5101:443
     environment:
       - ConnectionString__Postgres="Server=pg.FreeDOW;Port=5432;Database=FreeDOW;UserID=owmanage;Password=owmanage"
     depends_on:

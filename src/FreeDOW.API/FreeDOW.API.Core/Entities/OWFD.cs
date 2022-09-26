@@ -8,9 +8,9 @@ namespace FreeDOW.API.Core.Entities
     public class OWFD
     {
         public Guid OverWorkId { get; set; }
-        public OverWork OverWork { get; set; }
+        public OverWork? OverWork { get; set; }
         public Guid FreeDayId { get; set; }
-        public FreeDay FreeDay { get; set; }
+        public FreeDay? FreeDay { get; set; }
         public int TimeTaken { get; set; }
     }
 }

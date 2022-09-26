@@ -8,11 +8,17 @@ namespace FreeDOW.API.Core.Entities
     public class FreeDay : BaseEntity
     {
         public Guid EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+
         public DateTime DTStart { get; set; }
         public DateTime DTEnd { get; set; }
-        public int Confirm { get; set; }
+        public int Confirmed { get; set; }
+        public ICollection<OverWork> OverWorks { get; set; }
+        public ICollection<OWFD> OWFDS { get;set; }
 
-        public ICollection<OWFD> OWFDs { get; set; }
+        public FreeDay()
+        {
+            OverWorks = new List<OverWork>();
+            OWFDS = new List<OWFD>();
+        }
     }
 }

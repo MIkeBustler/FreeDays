@@ -8,10 +8,10 @@ namespace FreeDOW.API.Core.Entities
     public class EmpSettingValue: BaseEntity
     {
         public Guid EmployeeId { get; set; }
-        public Employee Employee { get; set; }
+        public Employee? Employee { get; set; }
         public Guid SettingId { get; set; }
-        public Settings Settings { get; set; }
-        public string Value { get; set; }
+        public Settings? Settings { get; set; }
+        public string? Value { get; set; }
         
     }
 }

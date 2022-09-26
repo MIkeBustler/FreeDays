@@ -10,7 +10,7 @@ COPY ["FreeDOW.API.DataAccess/FreeDOW.API.DataAccess.csproj", "FreeDOW.API.DataA
 COPY ["FreeDOW.API.WebHost/FreeDOW.API.WebHost.csproj", "FreeDOW.API.WebHost/"]
 RUN dotnet restore "FreeDOW.API.WebHost/FreeDOW.API.WebHost.csproj"
 COPY . . 
-WORKDIR "/src/FreeDOW.API.WebHost"
+WORKDIR /src/FreeDOW.API.WebHost
 RUN dotnet build "FreeDOW.API.WebHost.csproj" -c Debug -o /app/build
 
 FROM build AS publish

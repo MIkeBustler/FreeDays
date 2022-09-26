@@ -10,6 +10,6 @@ namespace FreeDOW.API.Core.Entities
         public string Name { get; set; }
         public Guid ParentId { get; set; }
         public Guid OrganizationId { get; set; }
-        public Organization Organization { get; set; }
+        public Organization? Organization { get; set; }
     }
 }

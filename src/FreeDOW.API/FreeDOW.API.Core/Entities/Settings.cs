@@ -7,8 +7,8 @@ namespace FreeDOW.API.Core.Entities
     /// </summary>
     public class Settings :BaseEntity
     {
-        public string Name { get; set; }
-        public string Value { get; set; }
+        public string? Name { get; set; }
+        public string? Value { get; set; }
 
     }
 }
